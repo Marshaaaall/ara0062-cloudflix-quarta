@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAC - Escola de Taekwondo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="alunos.html">Alunos</a></li>
+                    <li><a href="tabela.html">Faixas</a></li>
+                    <li><a href="sac.html">SAC</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="content-section">
+            <h1>Serviço de Atendimento ao Cliente</h1>
+            <p>Entre em contato conosco para tirar dúvidas, fazer sugestões ou relatar problemas:</p>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+                    <small class="error-message" id="email-error"></small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="999.999.999-99" required>
+                    <small class="error-message" id="cpf-error"></small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida sobre cursos</option>
+                        <option value="matricula">Matrícula</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua dúvida, sugestão ou problema..." required></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Escola de Taekwondo - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/validacao.js"></script>
+    <script src="js/tema.js"></script>
+</body>
+</html>

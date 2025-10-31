@@ -1,0 +1,77 @@
+{
+    "faixas": [
+        {
+            "imagem": "white",
+            "faixa": "Branca",
+            "significado": "Inocência e pureza, como uma tela em branco",
+            "tempo": "3 meses"
+        },
+        {
+            "imagem": "yellow",
+            "faixa": "Amarela",
+            "significado": "Terra fértil onde a semente do conhecimento é plantada",
+            "tempo": "4 meses"
+        },
+        {
+            "imagem": "green",
+            "faixa": "Verde",
+            "significado": "Crescimento, como a planta que brota da terra",
+            "tempo": "4 meses"
+        },
+        {
+            "imagem": "blue",
+            "faixa": "Azul",
+            "significado": "Céu, para onde a planta cresce e se torna forte",
+            "tempo": "5 meses"
+        },
+        {
+            "imagem": "red",
+            "faixa": "Vermelha",
+            "significado": "Perigo, alertando o aluno para controlar seu conhecimento",
+            "tempo": "6 meses"
+        },
+        {
+            "imagem":"blue",
+            "faixa":"Vermelha",
+            "significado": "Perigo, alertando o aluno para controlar seu conhecimento",
+            "tempo": "6 meses"
+        }
+    ],
+    "alunos": [
+        {
+            "foto": "img/placeholderjpg",
+            "nome": "Carlos Silva",
+            "idade": 15,
+            "faixa": "Verde",
+            "tempo": "2 anos"
+        },
+        {
+            "foto": "img/placeholderjpg",
+            "nome": "Ana Costa",
+            "idade": 12,
+            "faixa": "Amarela",
+            "tempo": "1 ano"
+        },
+        {
+            "foto": "img/placeholderjpg",
+            "nome": "Mariana Oliveira",
+            "idade": 17,
+            "faixa": "Azul",
+            "tempo": "3 anos"
+        },
+        {
+            "foto": "img/placeholderjpg",
+            "nome": "João Santos",
+            "idade": 14,
+            "faixa": "Verde",
+            "tempo": "1.5 anos"
+        },
+        {
+            "foto": "img/placeholderjpg",
+            "nome": "Pedro Alves",
+            "idade": 16,
+            "faixa": "Vermelha",
+            "tempo": "4 anos"
+        }
+    ]
+}
